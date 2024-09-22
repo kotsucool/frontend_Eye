@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    color:coral;
+    background-color:paleturquoise;
+    /* margin: 0px 20px; */
+    /* margin-left: 10px; */
+    padding: 20px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color:aquamarine;
+    /* margin-left: 10px; */
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color:sandybrown;
+    /* margin-left: 10px; */
+}
+.container{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: center; /*จัดการแนวนอนสำหรับ flex*/
+    align-items: center; /*จัดการแนวตั้งสำหรับ flex*/
+    width: 100%;
+    height: 100vh;
+    background-color:antiquewhite;
+}
+.card{
+    padding: 15px;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.img-wrap{
+    width: 100%;
+    height: 70%;
+    /* background-color: red; */
+    border-radius: 5%;
+    overflow: hidden;
+}
+.dogdog{
+    width: 100%;
+    height: 100%;
+}
+.line1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: 100;
+}
+.line2{ 
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    font-size: 13px;
+  
+    font-family: sans-serif;
+    color: gray;
+}

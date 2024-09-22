@@ -1,0 +1,30 @@
+.name{
+  color: cornflowerblue;       
+  background-color: aliceblue;   
+  font-size: 60px;
+}
+.title{
+    color: coral;
+    background-color: antiquewhite;
+}
+div{
+    color:cadetblue;
+    font-weight: 700px;
+    font-size: 30px;
+}
+h1{
+    color: darkkhaki;
+    font-size: 30px;
+}
+.jaodog{
+    width: 200px;
+    height: 400px;
+}
+input{
+    font-size: 20px;
+    text-indent: 20px;
+}
+input:focus{
+    outline: none;
+
+}
