@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.icon{
-    border-radius: 50px;
-}
 .container{
     display: flex;
     justify-content: center;
